@@ -1,0 +1,6 @@
+image: matthewtingum/muslcc-mips:0.1
+
+aliases:
+  test:
+    script:
+      - mips-linux-musl-gcc main.c -static -o test
